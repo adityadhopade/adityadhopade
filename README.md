@@ -9,7 +9,7 @@
 
 <p align="left"> <a href="https://twitter.com/aditya_dhopade" target="blank"><img src="https://img.shields.io/twitter/follow/aditya_dhopade?logo=twitter&style=for-the-badge" alt="aditya_dhopade" /></a> </p>
 
-- 📝 I regularly write articles on [https://codemyworld.hashnode.dev/](https://codemyworld.hashnode.dev/)
+- 📝 I regularly write articles on [Hashnode](https://codemyworld.hashnode.dev/)
 
 - 💬 Ask me about **Linux Docker Kubernetes AWS Jenkins Ansible Python**
 
