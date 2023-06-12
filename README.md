@@ -11,7 +11,7 @@
 
 - 📝 I regularly write articles on [Hashnode](https://codemyworld.hashnode.dev/)
 
-- 💬 Ask me about **Linux Docker Kubernetes AWS Jenkins Ansible Python**
+- 💬 Ask me about **Linux Docker Kubernetes AWS Jenkins Terraform Python**
 
 - 📫 How to reach me **adityadhopade18@gmail.com**
 
