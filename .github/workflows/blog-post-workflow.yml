@@ -7,13 +7,19 @@ permissions:
   contents: write # To write the generated contents to the readme
 
 jobs:
-  update-readme-with-blog:
-    name: Update this repo's README with latest blog posts
+  update_blogs:
+    name: "Update With Latest Blogs"
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Pull in dev.to posts
-        uses: gautamkrishnar/blog-post-workflow@v1
+      - name: "📥  Fetching Repository Contents"
+        uses: actions/checkout@main
+
+      - name: "📚  Hashnode Updater"
+        uses: "varunsridharan/action-hashnode-blog@1.1.1"
         with:
-          feed_list: "https://https://medium.com/@adityadhopade18,https://codemyworld.hashnode.dev/"
+          USERNAME: "AdityaDhopade" # Hashnode Username
+          COUNT: 4 # MAX Visisble
+          STYLE: "blog-left"
+          BLOG_URL: "https://codemyworld.hashnode.dev/"
+        env:
+          GITHUB_TOKEN: ${{ secrets.SECRET_GITHUB_TOKEN }}
