@@ -16,7 +16,7 @@ jobs:
       - name: "📚  Hashnode Updater"
         uses: "varunsridharan/action-hashnode-blog@main"
         with:
-          USERNAME: "AdityaDhopade" # Hashnode Username
+          USERNAME: "adityadhopade88" # Hashnode Username
           BLOG_URL: "https://codemyworld.hashnode.dev/" # Blog URL
           COUNT: 5 # MAX Visisble
         env:
